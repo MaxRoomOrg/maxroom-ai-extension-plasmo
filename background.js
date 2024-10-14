@@ -1,4 +1,6 @@
-const SERVER_URL = "https://dev3k.yespranav.com/api/webhook";
+const SERVER_URL =
+  "https://maxroom.co/api/qstash/fromScript/extension/create-video";
+
 /**
  * @param {{html: string, url: string}} request */
 const sendDataToServer = async (request) => {
