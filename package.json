@@ -7,10 +7,8 @@
 	"author": "",
 	"license": "ISC",
 	"scripts": {
-		"tsconfig": "tsc --init",
-		"dev": "plasmo dev --verbose",
-		"build": "plasmo build",
-		"start": "plasmo start"
+		"lint:typescript": "tsc --noEmit",
+		"build:zip": "zip -r maxroom-chrome-ext.zip background.js content.js popup.js script_tailwind.js manifest.json popup.html"
 	},
 	"dependencies": {
 		"plasmo": "^0.89.3"
