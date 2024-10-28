@@ -1,0 +1,21 @@
+{
+	"name": "new-maxroom-chrome-ext",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"scripts": {
+		"tsconfig": "tsc --init",
+		"dev": "plasmo dev --verbose",
+		"build": "plasmo build",
+		"start": "plasmo start"
+	},
+	"dependencies": {
+		"plasmo": "^0.89.3"
+	},
+	"devDependencies": {
+		"typescript": "^5.6.3"
+	}
+}
